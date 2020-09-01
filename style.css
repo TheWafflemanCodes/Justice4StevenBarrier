@@ -1,62 +1,52 @@
-
+body{
+    background-color: #131313;
+}
 .Container{
- text-align: center;
- border: 3px solid black;
- margin-bottom: 20px;
-}
-#FullBodySteve{
-    width: 10%;
-    height: 30%;
-    display: block;
-
-}
-#SteveVal{
-    width: 200px;
-    height: 150px;
-}
-nav {
-  background-color: gray;
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+    background-color: white;
 }
 
-nav li {  
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-  border: 5px solid black;
-  background-color: black;
+header{
+    background-color: gray;
 }
-
-nav li a {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+header h1{
+    text-transform: uppercase;
 }
 h1{
+    font-family: Verdana, Geneva, sans-serif;
+}
+p{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  font-family: Verdana, Geneva, sans-serif;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff1313;
+}
+#FooterGoalMessage{
+    background-color: gray;
+    text-transform: uppercase;
     
 }
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-a:link{
-   text-decoration: none;
-   color: white;
-}
 
-a:hover{
-  text-decoration: underline;
-  
+#News {
+  display: block;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  overflow: hidden;
+  font-style: italic;
+  background-color: lightgray;
 }
-
-a:visited{
-  text-decoration: none; 
-  color: white;
-}
-
-a:active{
-  text-decoration: underline;  
+#News h2{
+    text-align: center;
 }

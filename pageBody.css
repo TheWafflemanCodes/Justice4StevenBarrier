@@ -1,0 +1,75 @@
+
+
+/*Navigation Bar Display*/
+nav {
+    width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+
+header h1{
+   text-indent: 120px;
+   padding: 10px 20px;
+}
+
+#GoalMessage{
+    padding-top: 2px;
+}
+/*Steven Barrier Container*/
+#FullBodySteve{
+    float: left;
+    width: 300px;
+    height: 480px; 
+}
+#StevenStory{
+    overflow: hidden;
+    text-align: left;
+}
+#StevenStory h1{
+    text-align: center;
+}
+#StevenStory p{
+    text-align: left;
+}
+
+/*Val and Steve Container*/
+#SteveVal{
+    width: 320px;
+    height: 230px;
+    float: right;
+}
+#ValStatement{
+    overflow: hidden;
+    text-align: right;
+}
+#ValStatement h1{
+    text-align: center;
+}
+#ValStatement p{
+    text-align: left;
+    padding: 20px 30px;
+    margin-right: 20px;
+}
+#FooterGoalMessage{
+   text-indent: 120px;
+   padding: 10px 20px;
+}
+
+.Container{
+    padding: 40px;
+}
