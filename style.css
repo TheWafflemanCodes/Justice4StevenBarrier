@@ -1,52 +1,79 @@
+/*General Body stle*/
 body{
     background-color: #131313;
-}
-.Container{
-    background-color: white;
 }
 
 header{
     background-color: gray;
 }
-header h1{
+#GoalMessage h1{
     text-transform: uppercase;
 }
 h1{
     font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
 }
-p{
+/*Steven Barrier Box Style*/
+#SBBlock1{
+   
+    border-top: 5px solid #7d7d85;
+    border-bottom: 5px solid #7d7d85;
+    background-color: white;
+}
+#SBBlock1 p{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
 }
-
+/*Val's Box Style'*/
+#SBBlock2{
+     border-top: 5px solid #7d7d85;
+     border-bottom: 5px solid #7d7d85;
+}
+#ValStatement p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+/*Navigation Style list*/
 ul {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Impact, fantasy;
   overflow: hidden;
   background-color: #333;
+  letter-spacing: 5px;
+  
 }
 
 li a {
-  color: white;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: #ff1313;
 }
+#GoalMessage{
+    border: 3px solid black;
+    background-color: #cccbc8;
+}
 #FooterGoalMessage{
     background-color: gray;
     text-transform: uppercase;
     
 }
+.News{
+     border: 5px solid #7d7d85;
+     background-color: #cfcf51;
+     font-family: DejaVu Sans Mono, monospace;
+     display: inline-block;
+     width: 30%;
+     margin-left: 20px;
+     margin-bottom: 30px;
+}    
+#Event{
+    height: 30px;
+}
 
-#News {
-  display: block;
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  overflow: hidden;
-  font-style: italic;
-  background-color: lightgray;
-}
-#News h2{
-    text-align: center;
-}
+
+
