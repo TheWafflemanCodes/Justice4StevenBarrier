@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 /*Navigation Bar Display*/
 nav {
     width: 100%;
@@ -29,27 +34,49 @@ header h1{
     padding-top: 2px;
 }
 /*Steven Barrier Container*/
+#SBBlock1{
+    margin-top: 30px;
+}
 #FullBodySteve{
+    border: 10px solid #7d7d85; 
     float: left;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
     width: 300px;
     height: 480px; 
 }
+
 #StevenStory{
     overflow: hidden;
-    text-align: left;
+    padding: 40px;
 }
 #StevenStory h1{
     text-align: center;
+    padding-bottom: 20px;
 }
 #StevenStory p{
-    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    text-indent: 30px;
+    padding-left: 100px;
+
 }
 
 /*Val and Steve Container*/
+#SBBlock2{
+    margin-top: 30px;
+    background-color: silver;
+}
 #SteveVal{
+    position: relative;
+    right: 30px;
+    bottom: 20px;
     width: 320px;
     height: 230px;
     float: right;
+    border: 5px solid white;
 }
 #ValStatement{
     overflow: hidden;
@@ -57,16 +84,25 @@ header h1{
 }
 #ValStatement h1{
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
 }
 #ValStatement p{
     text-align: left;
-    padding: 20px 30px;
-    margin-right: 20px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 #FooterGoalMessage{
    text-indent: 120px;
    padding: 10px 20px;
 }
-.Container{
-    padding: 40px;
+
+.News{
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px 40px;
+    display: inline-block;
+    width: 25%;
 }
