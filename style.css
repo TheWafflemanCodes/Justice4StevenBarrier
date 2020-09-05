@@ -53,6 +53,8 @@ li a {
 li a:hover {
   background-color: #ff1313;
 }
+
+/*FooterSection*/
 #GoalMessage{
     border: 3px solid black;
     background-color: #cccbc8;
@@ -68,11 +70,16 @@ li a:hover {
      font-family: DejaVu Sans Mono, monospace;
      display: inline-block;
      width: 30%;
+     height: 30%;
      margin-left: 20px;
      margin-bottom: 30px;
 }    
 #Event{
     height: 30px;
+}
+#AllyScroll{
+    overflow: auto;
+
 }
 
 
