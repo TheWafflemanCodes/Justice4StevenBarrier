@@ -51,6 +51,7 @@ header h1{
 #StevenStory{
     overflow: hidden;
     padding: 40px;
+    
 }
 #StevenStory h1{
     text-align: center;
@@ -103,12 +104,18 @@ header h1{
 
 #Update{
     width: 100%;
+    display: inline-block;
+  
 }
+
+#Update h2{
+    line-height: 20px;
+}
+
 .News{
     margin-top: 30px;
     text-align: center;
     padding: 30px 40px;
     display: inline-block;
     width: 25%;
-    
 }
