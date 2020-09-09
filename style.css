@@ -8,12 +8,18 @@ header{
 }
 #GoalMessage h1{
     text-transform: uppercase;
+    text-shadow: 3px 3px 1px black;
+    color: white;
 }
 h1{
     font-family: Verdana, Geneva, sans-serif;
     font-weight: bold;
 }
 /*Steven Barrier Box Style*/
+#StevenStory{
+        border-left: 10px solid black;
+    border-right: 10px solid black;
+}
 #SBBlock1{
    
     border-top: 5px solid #7d7d85;
@@ -73,6 +79,7 @@ li a:hover {
      height: 30%;
      margin-left: 20px;
      margin-bottom: 30px;
+     border-radius: 10%;
 }    
 #Event{
     height: 30px;
@@ -81,6 +88,18 @@ li a:hover {
     overflow: auto;
 
 }
+aside{
+    background-color: gold;
+    padding: 40px;
+    float: right;
+    
+}
 
+.LinkBox{
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
 
 
